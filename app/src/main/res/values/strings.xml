@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="connection_string">/KFDCUSWebServices/KFDCUSWebServicesRest.svc/</string>
+    <string name="developed_by_Group5">Developed by Software Group 5.</string>
+    <string name="txt_msg">Your Network is Unavailable.Check Your data or Wi-Fi Connection.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_place">My Place</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_history">History</string>
+    <string name="title_more">More</string>
+    <string name="login_et_password_hint">P A S S W O R D</string>
+    <string name="login_et_username_hint">U S E R N A M E</string>
+    <string name="login_et_customerID_hint">C U S T O M E R    I D</string>
+    <string name="login_btn_sign_in_txt">LOGIN</string>
+    <string name="compulsory">*</string>
+</resources>
