@@ -30,7 +30,12 @@ public class LoginActivity extends AppCompatActivity {
         loginlayout = (RelativeLayout) findViewById(R.id.loginLayout);
         mcreateText = findViewById(R.id.mcreateText);
         forgetPassword = findViewById(R.id.forgetPassword);
+        if(pref.isLoggedIn()){
+            goToHome();
+        }else {
+            goToLogin();
 
+        }
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                     //temparary for datamation
                     Log.d(">>>", "Validation :: " + username.getText().toString());
                     Log.d(">>>", "Validation :: " + password.getText().toString());
-
+                    pref.setLoginStatus(true);
                     Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
                     startActivity(intent);
                     finish();

@@ -15,7 +15,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
 
-
+///xyzbn
 
     //public static BottomNavigationView navigation;
     //private Toolbar toolbar;
